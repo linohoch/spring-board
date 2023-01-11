@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ResultMap">
+
+    <resultMap id="integer"         type="Integer"/>
+    <resultMap id="map"             type="java.util.Map"/>
+    <resultMap id="list"            type="java.util.ArrayList"/>
+
+    <resultMap id="UserInfoVO"      type="com.example.springboard.vo.UserInfoVO"/>
+
+    <resultMap id="ShopInfoVO"      type="com.example.springboard.vo.ShopInfoVO"/>
+    <resultMap id="ArticleVO"       type="com.example.springboard.vo.ArticleVO"/>
+    <resultMap id="CommentVO"       type="com.example.springboard.vo.CommentVO"/>
+    <resultMap id="PhotoVO"         type="com.example.springboard.vo.PhotoVO"/>
+
+</mapper>
